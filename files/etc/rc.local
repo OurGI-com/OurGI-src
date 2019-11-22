@@ -1,0 +1,6 @@
+#!/bin/bash
+
+WG_QUICK_USERSPACE_IMPLEMENTATION=boringtun wg-quick up wg1
+while true; do nohup cockroach start --listen-addr=127.0.0.1 --insecure --store=/var/cockroach >/dev/null 2>&1; done &
+while true; do nohup /usr/local/nginx/sbin/nginx -g "daemon off;" >/dev/null 2>&1; done &
+while true; do nohup /usr/local/php73/sbin/php-fpm -F >/dev/null 2>&1; done &
