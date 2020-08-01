@@ -1,6 +1,6 @@
-# OurGI-src
+# OurGi-src
 blockchain for group intelligence
 
-mesh network sketch map:
+OurGi mesh network:
 
-
+![](./OurGi_mesh_network.png)
