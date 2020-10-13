@@ -22,5 +22,7 @@ raft leader's log is the truth, 所以raft不能算共识算法, bft才是
 hotstuff优化了bft, 把区块链和BFT步骤结合来减少通讯复杂度, scalable BFT: https://github.com/hot-stuff/libhotstuff
 
 BFT db:
+
 https://github.com/davebryson/bftdb
+
 https://github.com/rink1969/dbbft
