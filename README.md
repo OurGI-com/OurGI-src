@@ -24,5 +24,7 @@ hotstuff优化了bft, 把区块链和BFT步骤结合来减少通讯复杂度, sc
 BFT db:
 
 https://github.com/davebryson/bftdb
+https://blog.csdn.net/weixin_37504041/article/details/92798787
+
 
 https://github.com/rink1969/dbbft
