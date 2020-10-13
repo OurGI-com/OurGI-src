@@ -20,3 +20,7 @@ raft leader's log is the truth, 所以raft不能算共识算法, bft才是
 可惜Hyperledger Sawtooth PBFT的members管理是中心化的(默认由genesis block owner :https://sawtooth.hyperledger.org/docs/core/nightly/1-2/sysadmin_guide/pbft_adding_removing_node.html), 要是能以4个成员为起点在链上表决来增减成员就好了
 
 hotstuff优化了bft, 把区块链和BFT步骤结合来减少通讯复杂度, scalable BFT: https://github.com/hot-stuff/libhotstuff
+
+BFT db:
+https://github.com/davebryson/bftdb
+https://github.com/rink1969/dbbft
