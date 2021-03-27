@@ -1,7 +1,7 @@
 #singularity is far more convenient than docker, so replace docker with singularity
 
-apt install ca-certificates
 ssh root@my_vps_1_ip
+apt install ca-certificates
 wget https://github.com/OurGI-com/OurGI-src/raw/master/singularity/singularity.zip
 unzip singularity.zip
 sudo cp singularity /usr/local/bin/singularity
