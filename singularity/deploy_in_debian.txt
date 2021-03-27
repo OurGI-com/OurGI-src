@@ -1,4 +1,0 @@
-#singularity is far more convenient than docker, so replace docker with singularity
-
-apt install ca-certificates
-ssh root@my_vps_1_ip
