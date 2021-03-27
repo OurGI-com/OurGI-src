@@ -1,0 +1,2 @@
+apt install ca-certificates
+ssh root@my_vps_1_ip
