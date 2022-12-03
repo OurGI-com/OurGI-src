@@ -1,5 +1,8 @@
 # OurGi-src
-blockchain for group intelligence
+Our Group Intelligence,
+blockchain for group intelligence,
+OurGI developers guild,
+trustless as a service
 
 OurGi mesh network:
 
